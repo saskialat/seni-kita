@@ -6,16 +6,39 @@
 <html>
 <head>
 	<title> Seni Kita Gallery </title>
-	<link rel="stylesheet" type="text/css" href="styles.html">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		* {
+			display: flex;
+		}
+		
+		body#home {
+			flex-direction: row;
+		}
+
+		.navbar-box {
+			background-color: #DFDFDF;
+			flex-direction: column;
+		}
+
+		.homepage-box {
+			background-color: #8FED53;
+			flex-direction: column;
+		}
+
+		.content-box {
+			flex-direction: row;
+		}
+	</style>
 </head>
-<body>
+<body id="home">
 
 	<div class="navbar-box">
 		
 		<a href="" id="menu-button"> Menu </a>
-		
+		<br>
 		<a href="" id="about-us-button"> About Us </a>
-		
+		<br>
 		<a href="" id="signup-button"> Sign Up </a>
 		
 		<h6> Contact Us </h6>
