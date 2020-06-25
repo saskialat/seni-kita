@@ -2,31 +2,85 @@
 June 24, 2020
 SENI KITA GALLERY PAGE STYLE*/
 
-#home {
+h1 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+h2 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+h3 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+h4 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+h5 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+h6 {
+	/* Add font size that changes relative to the viewpoint*/
+}
+p {
+	/* Add font size that changes relative to the viewpoint*/
+}
+img {
+	/* Add font size that changes relative to the viewpoint*/
+	/* Defailt image size, according to hierarchy, will be lower than id */
+}
+
+.home {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	display: flex;
 	flex-direction: row;
+	background-color: #65715E; 
 }
 
 .navbar-box {
 	display: flex;
-	background-color: #DFDFDF;
 	flex-direction: column;
+	background-color: #DFDFDF;
 	padding: 20px;
 } 
 
 .homepage-box {
 	display: flex;
-	background-color: #8FED53;
 	flex-direction: column;
+	background-color: #8FED53;
 }
 
 .title-box {
 	display: flex;
 	flex-direction: row;
+	background-color: #414241;
+	padding: 20px;
+	margin-bottom: 20px;
 }
+	#web-title {
+		animation-name: colorchanging;
+		animation-duration: 20s;
+		animation-iteration-count: infinite;
+	}
+		@keyframes colorchanging {
+			
+			0% { color: #ff1616; }
+			25% { color: #ff914d; }
+			50% { color: #ffde59; }
+			75% { color: #7ed957; }
+			100% { color: #004aad; }
+		}
 
 .content-box {
 	display: flex;
 	flex-direction: row;
 	padding: 20px;
+}
+
+.news-box {
+	display: flex;
+	flex-direction: column;
+
 }
