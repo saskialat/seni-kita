@@ -51,7 +51,10 @@ img {
 	display: flex;
 	flex-direction: column;
 	background-color: #DFDFDF;
-	padding: 20px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-right: 2vw;
+	padding-left: 2vw;
 	align-items: center; /* Aligned menu and sign up to the center but not about us and contact us fsr */
 	text-align: center;
 	width: 16.66%;
