@@ -4,24 +4,32 @@ SENI KITA GALLERY PAGE STYLE*/
 
 h1 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 8vw;
+
 }
 h2 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 6vw;
 }
 h3 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 5vw;
 }
 h4 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 4vw;
 }
 h5 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 3vw;
 }
 h6 {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 1vw;
 }
 p {
 	/* Add font size that changes relative to the viewpoint*/
+	font-size: 2vw;
 }
 img {
 	/* Add font size that changes relative to the viewpoint*/
@@ -46,12 +54,16 @@ img {
 	padding: 20px;
 	align-items: center; /* Aligned menu and sign up to the center but not about us and contact us fsr */
 	text-align: center;
+	width: 16.66%;
+
 } 
 
 .homepage-box {
 	display: flex;
 	flex-direction: column;
 	background-color: #8FED53;
+	width: 83.34%;
+
 }
 
 .title-box {
@@ -80,7 +92,9 @@ img {
 .content-box {
 	display: flex;
 	flex-direction: row;
-	padding: 20px;
+	justify-content: space-around;
+	
+	/*padding: 0.1vh;*/
 	/* Add margin between news-box and weekly-gallery-box */
 }
 
@@ -88,7 +102,9 @@ img {
 	display: flex;
 	flex-direction: column;
 	background-color: #1111;
-	padding: 12px;
+	text-align: center;
+	padding: 2vw;
+	width: 60%;
 	/* Add margin between latest updates and other-news */
 
 }
@@ -97,6 +113,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	background-color: #ffff;
+	width: 30%;
 	/* Add margin between latest updates and other-news */
 
 }
