@@ -44,6 +44,8 @@ img {
 	flex-direction: column;
 	background-color: #DFDFDF;
 	padding: 20px;
+	align-items: center; /* Aligned menu and sign up to the center but not about us and contact us fsr */
+	text-align: center;
 } 
 
 .homepage-box {
@@ -58,6 +60,8 @@ img {
 	background-color: #414241;
 	padding: 20px;
 	margin-bottom: 20px;
+	/* Add margin between Logo and Text */
+
 }
 	#web-title {
 		animation-name: colorchanging;
@@ -77,10 +81,22 @@ img {
 	display: flex;
 	flex-direction: row;
 	padding: 20px;
+	/* Add margin between news-box and weekly-gallery-box */
 }
 
 .news-box {
 	display: flex;
 	flex-direction: column;
+	background-color: #1111;
+	padding: 12px;
+	/* Add margin between latest updates and other-news */
+
+}
+
+.weekly-gallery-box {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffff;
+	/* Add margin between latest updates and other-news */
 
 }
