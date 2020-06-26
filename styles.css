@@ -17,23 +17,33 @@ h3 {
 }
 h4 {
 	/* Add font size that changes relative to the viewpoint*/
-	font-size: 4vw;
+	font-size: 2em;
 }
 h5 {
 	/* Add font size that changes relative to the viewpoint*/
-	font-size: 3vw;
+	font-size: 1.5em;
 }
 h6 {
 	/* Add font size that changes relative to the viewpoint*/
-	font-size: 1vw;
+	font-size: 0.5em;
 }
 p {
 	/* Add font size that changes relative to the viewpoint*/
-	font-size: 2vw;
+	font-size: 1em;
 }
 img {
 	/* Add font size that changes relative to the viewpoint*/
 	/* Defailt image size, according to hierarchy, will be lower than id */
+}
+a {
+	font-size: 1.1em
+}
+.margin-r{
+	margin: 15px;
+}
+
+#margin-top {
+	margin-top: 100%
 }
 
 .home {
@@ -45,12 +55,16 @@ img {
 	display: flex;
 	flex-direction: row;
 	background-color: #65715E; 
+	width: 100%;
+	height: 100%;
+
 }
 
 .navbar-box {
 	display: flex;
 	flex-direction: column;
-	background-color: #DFDFDF;
+	vertical-align: center;
+	background-color: #ECFF00;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 	padding-right: 2vw;
@@ -61,10 +75,17 @@ img {
 
 } 
 
+#instagram-page {
+	display: flex;
+	flex-shrink: 0.5;
+	background-color:cyan;
+
+}
+
 .homepage-box {
 	display: flex;
 	flex-direction: column;
-	background-color: #8FED53;
+	background-color: #180BEA;
 	width: 83.34%;
 
 }
@@ -72,10 +93,11 @@ img {
 .title-box {
 	display: flex;
 	flex-direction: row;
-	background-color: #414241;
+	background-color: #DE1107;
 	padding: 20px;
 	margin-bottom: 20px;
 	/* Add margin between Logo and Text */
+
 
 }
 	#web-title {
@@ -96,6 +118,7 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-bottom: 20px;
 	
 	/*padding: 0.1vh;*/
 	/* Add margin between news-box and weekly-gallery-box */
@@ -108,6 +131,7 @@ img {
 	text-align: center;
 	padding: 2vw;
 	width: 60%;
+	color: #ffff;
 	/* Add margin between latest updates and other-news */
 
 }
@@ -117,6 +141,7 @@ img {
 	flex-direction: column;
 	background-color: #ffff;
 	width: 30%;
+	padding: 2vw;
 	/* Add margin between latest updates and other-news */
 
 }
